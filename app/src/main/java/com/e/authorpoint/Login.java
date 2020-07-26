@@ -1,7 +1,6 @@
 package com.e.authorpoint;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -9,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Login extends AppCompatActivity {
 
@@ -53,7 +54,7 @@ public class Login extends AppCompatActivity {
                 }
 
                 if (true) { //check firebase login
-                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    startActivity(new Intent(getApplicationContext(), BookActivity.class));
                     Toast.makeText(getApplicationContext(), "Welcome", Toast.LENGTH_SHORT).show();
                     finish();
                 }
@@ -81,7 +82,7 @@ public class Login extends AppCompatActivity {
         if (TextUtils.isEmpty(uemailString)) {
             uemail.setError("Required");
             valid = false;
-            Toast.makeText(Login.this, "Please fill username", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Login.this, "Please fill email", Toast.LENGTH_SHORT).show();
         }
 
         return valid;

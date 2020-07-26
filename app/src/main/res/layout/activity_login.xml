@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_login"
+    android:background="#fff"
     android:padding="16dp"
     tools:context=".Login">
 
@@ -17,7 +17,7 @@
         android:fontFamily="sans-serif-medium"
         android:text="@string/authorpointTitle"
         android:textAllCaps="false"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textSize="40sp"
         android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:text="@string/welcome_back"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textSize="32sp"
         android:fontFamily="sans-serif-medium"/>
 
@@ -86,9 +86,8 @@
         android:layout_above="@+id/RegBtn"
         android:layout_marginHorizontal="30dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/bg_btn"
         android:text="@string/login"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textSize="16sp" />
 
     <Button
@@ -98,9 +97,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginHorizontal="32dp"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/bg_btn"
         android:text="@string/register"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textSize="16sp" />
 
 </RelativeLayout>

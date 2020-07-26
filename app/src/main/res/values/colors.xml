@@ -10,4 +10,9 @@
     <color name="darkpurple">#a569bd</color>
     <color name="pinky">#fe104d</color>
     <color name="lightgray">#808080</color>
+    <color name="textColorAuthor">#606060</color>
+    <color name="textColorBookTitle">#000000</color>
+    <color name="textColorCountryCode">#606060</color>
+    <color name="textColorPrice">#ba0b0b</color>
+
 </resources>

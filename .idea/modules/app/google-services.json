@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "539424555920",
+    "firebase_url": "https://authorpoint-9490f.firebaseio.com",
+    "project_id": "authorpoint-9490f",
+    "storage_bucket": "authorpoint-9490f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539424555920:android:4a961e5843d9484bdb2915",
+        "android_client_info": {
+          "package_name": "com.e.authorpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539424555920-tqg24lnf5nuqqplrota14q5een85puli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.e.authorpoint",
+            "certificate_hash": "325530c5230d8d81d76fb461e9621b6d169fdcbd"
+          }
+        },
+        {
+          "client_id": "539424555920-h9jiug9e1ubjfs5h094kqltfarrimrst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-MKuS2fuCF6tRkwrPJC2ESAswgTY-XFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539424555920-h9jiug9e1ubjfs5h094kqltfarrimrst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
