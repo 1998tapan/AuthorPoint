@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AuthorPoint</string>
+    <string name="passwordHint">Password</string>
+    <string name="emailHint">Email</string>
+    <string name="authorpointTitle">AuthorPoint</string>
+    <string name="welcome_back">Welcome Back !</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+</resources>
